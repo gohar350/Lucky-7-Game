@@ -1,0 +1,43 @@
+body{
+    background-image: url('./BG.png');
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.luck{
+    margin-top: 20em;
+    margin-left: 37.5em;
+}
+#Re{
+    margin-top: 2em;
+    margin-left:25em;
+    
+}
+
+input[type=submit]{
+    background-color:blueviolet;
+    border-radius: 1em;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px;
+    cursor: pointer;
+}
+
+input[type=number] {
+    width: 8%;
+    padding: 15px 22px;
+    box-sizing: border-box;  
+    color: brown;
+    font-weight: bolder;
+    border-radius: 2em;
+}
+
+input[type=number ]:focus {
+    background-color: #8842d5;
+}
+input[type=number ]:hover {
+    background-color:#8842d5;
+    color: white;
+}
